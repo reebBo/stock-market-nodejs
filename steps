@@ -1,0 +1,26 @@
+npm init -y
+npm install express (express.js)
+
+const express = require('express')
+const app = express()
+
+ to run the app: node index.js
+
+//every time we make a change to index.js we need to restart the server. to avoid this:
+npm install -D nodemon
+"scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  and to run the app we will use now: npm run dev
+
+(npmjs.com): npm install express-handlebars
+const express = require('express');
+const exphbs  = require('express-handlebars');
+ 
+
+ $ git config --global user.name "Your Name"
+$ git config --global user.email "you@youraddress.com"
+$ git config --global push.default matching
+$ git config --global alias.co checkout
+$ git init
